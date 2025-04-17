@@ -23,12 +23,13 @@
         .font-poppins {
             font-family: "Poppins", sans-serif;
         }
+
     </style>
 </head>
 
-<body>
-    <header class="max-w-[73.125rem] mx-auto mt-3 lg:mt-[3.13rem]">
-        <div class="navbar font-poppins">
+<body class="font-poppins">
+    <header class="max-w-[73.125rem] mx-auto my-3 lg:my-[3.13rem]">
+        <div class="navbar">
             <div class="navbar-start max-lg:w-full max-lg:justify-between text-base text-[#707070]">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost px-0 lg:hidden">
@@ -57,7 +58,8 @@
                         </li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Contact Us</a></li>
-                        <li><a href="" class="btn bg-[#B68C5A] rounded-lg my-2 text-white text-sm px-5 py-4">Free Consultation</a></li>
+                        <li><a href="" class="btn bg-[#B68C5A] rounded-lg my-2 text-white text-sm px-5 py-4">Free
+                                Consultation</a></li>
                     </ul>
                 </div>
                 <div class="">
@@ -90,12 +92,27 @@
                 </ul>
             </div>
             <div class="navbar-end hidden lg:flex">
-                <a href="" class="btn bg-[#B68C5A] rounded-lg text-white text-lg px-[1.81rem] py-6">Free Consultation</a>
+                <a href="" class="btn bg-[#B68C5A] rounded-lg text-white text-lg px-[1.81rem] py-6">Free
+                    Consultation</a>
             </div>
         </div>
     </header>
     <main class="max-w-[73.125rem] mx-auto">
-
+        <section class="bg-[url('images/banner.png')] bg-no-repeat">
+            <div class="py-[6.5rem] max-w-[43rem] mx-auto text-center">
+                <h1 class="text-3xl md:text-5xl lg:text-7xl font-garamond font-extrabold leading-[3rem] md:leading-[4rem] lg:leading-[5.3125rem] text-white mb-6">We Provide Effective
+                    Legal Solutions</h1>
+                <p class="text-xs md:text-sm lg:text-base px-3 md:px-0 font-normal leading-[1.625rem] text-[#E7E7E7] mb-8">There are many variations of passages
+                    of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                    humour.</p>
+                <form action="" class="flex flex-col items-center justify-center md:flex-row gap-6">
+                    <input
+                        class="w-[90%] md:w-[50%] lg:w-full max-w-[31.25rem] bg-white text-base text-center md:text-left rounded-lg font-normal leading-[1.625rem] px-5 py-4"
+                        type="search" placeholder="Search your services" name="" id="">
+                    <input class="w-full max-w-[9.375rem] btn rounded-lg bg-[#B68C5A] text-xl h-full leading-none border border-[#B68C5A] font-semibold text-white py-[1.06rem] px-[2.44rem]" type="submit" value="Search">
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
 
